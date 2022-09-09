@@ -337,6 +337,7 @@ img {
     margin-bottom:10vh;
     margin-left: -10vw;
     width: 100vw;
+    overflow: hidden;
 }
 
 .ctasection {
