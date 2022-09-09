@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome to Fresh</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<style>
+@media only screen and (max-width: 600px) {
+    h1 {
+      font-size: 120px;
+      line-height: 140px;
+    }
+    h2 {
+      font-size: 52px;
+      line-height: 56px;
+      transition: all 1s;
+    }
+    h4 {
+        font-size: 18px;
+        line-height: 20px;
+        transition: all 1s;
+    }
+    .display {
+        -webkit-text-stroke: 2px #ffffff;
+        transition: all 1s;
+    }
+    .illustration_top {
+        width: 20%;
+        height:auto;
+        margin: -25%;
+        transition: all 1s;
+    }
+    .illustration_left {
+        width: 20%;
+        margin-right: -30%;
+        transition: all 1s;
+    }
+    .illustration_right {
+        width: 20%;
+        margin-left: -30%;
+        transition: all 1s;
+    }
+    .welcometo {
+        height:fit-content;
+    }
+    .fresh {
+        height:auto;
+        margin-top: -5%;
+        transition: all 1s;
+    }
+    .boxcontainer {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .hero {
+        height: 50vh;
+    }
+
+    .yourtask {
+        flex-wrap: wrap;
+    }
+    .tasklist {
+        width: 100%;
+    }
+
+}
+
+
+@media only screen and (min-width: 600px) and (max-width: 728px) {
+    h1 {
+      font-size: 140px;
+      line-height: 150px;
+      transition: all 1s;
+    }
+    h2 {
+      font-size: 64px;
+      line-height: 72px;
+      transition: all 1s;
+    }
+    .illustration_top {
+        width: 20%;
+        transition: all 1s;
+    }
+    .illustration_left {
+        width: 50%;
+        transition: all 1s;
+    }
+    .illustration_right {
+        width: 50%;
+        transition: all 1s;
+    }
+    .welcometo {
+        height: auto;
+    }
+    .fresh {
+        height:auto;
+        margin-top: -3%;
+  }
+  .boxcontainer {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+    .hero {
+        height: 50vh;
+    }
+  .yourtask {
+        flex-wrap: wrap;
+    }
+    .tasklist {
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 728px) {
+    h1 {
+      font-size: 140px;
+      line-height: 130px;
+      transition: all 1s;
+    }
+    h2 {
+      font-size: 72px;
+      line-height: 84px;
+      transition: all 1s;
+    }
+    .illustration_top {
+        width: 30%;
+        transition: all 1s;
+    }
+    .illustration_left {
+        width: 70%;
+        transition: all 1s;
+    }
+    .illustration_right {
+        width: 70%;
+        transition: all 1s;
+    }
+    .welcometo {
+        height: auto;
+    }
+    .fresh {
+        height:auto;
+        margin-top:-2%;
+        transition: all 1s;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+      font-size: 150px;
+      line-height: 150px;
+      transition: all 1s;
+    }
+    h2 {
+      font-size: 80px;
+      line-height: 84px;
+      transition: all 1s;
+    }
+    .illustration_top {
+        width: 40%;
+        transition: all 1s;
+    }
+    .illustration_left {
+        width: 90%;
+        transition: all 1s;
+    }
+    .illustration_right {
+        width: 90%;
+        transition: all 1s;
+    }
+    .welcometo {
+        height: auto;
+    }
+    .fresh {
+        height:auto;
+        margin-top: 0%;
+        transition: all 1s;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+    h1 {
+      font-size: 170px;
+      line-height: 180px;
+      transition: all 1s;
+    }
+    h2 {
+      font-size: 96px;
+      line-height: 125px;
+      transition: all 1s;
+    }
+    .fresh {
+        height:auto;
+        margin-top: 0%;
+  }
+  .illustration_top {
+        width: 100%;
+        transition: all 1s;
+    }
+    .illustration_left {
+        width: 100%;
+        transition: all 1s;
+    }
+    .illustration_right {
+        width: 100%;
+        transition: all 1s;
+  }
+}
+
+</style>
+
+<body class="dark_background">
+
+
+<section class="hero">
+    <div class="welcometo">
+        <h2 class="text_ondark allcaps">Welcome</h2>
+        <svg class="illustration_top" width="180" height="140" viewBox="0 0 224 177" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M83.8724 56.4149C59.2058 34.4149 24.6724 -7.18512 83.8724 2.41488C143.072 12.0149 139.206 33.0816 129.873 42.4149C162.539 17.0816 226.673 -18.3851 221.873 42.4149C219.502 72.4389 207.605 84.8404 193.6 88.0969C201.295 95.9955 203.579 108.245 197.873 124.415C183.235 165.89 153.451 158.504 131.781 141.964C127.199 146.516 119.535 151.804 107.872 158C43.8724 192 -0.127625 172.415 31.8724 138.415C57.4724 111.215 77.2058 95.0816 83.8724 90.4149C57.8724 101.748 1.87207 93.2149 1.87207 56.4149C1.87207 19.6149 57.8724 48.4149 83.8724 56.4149Z" fill="#FDC62D" stroke="black" stroke-width="2"/>
+            </svg>
+        <h2 class="text_ondark allcaps">to</h2>
+    </div>
+    <div class="fresh">
+        <svg class="illustration_left" width="285" height="288" viewBox="0 0 285 288" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50.4057 218.499C35.6781 126.594 46.3553 -34.6479 206.885 55.6307C367.415 145.909 169.453 201.826 50.4057 218.499Z" fill="#005246"/>
+            <path d="M199.655 69.9041C187.491 58.5114 155.213 50.5321 123.421 109.758C91.6286 168.983 66.9196 196.224 58.5391 202.442M50.4057 218.499C35.6781 126.594 46.3553 -34.6479 206.885 55.6307C367.415 145.909 169.453 201.826 50.4057 218.499Z" stroke="black" stroke-width="2"/>
+            </svg>
+            
+        <h1 class="display">Fresh</h1>
+        <svg class="illustration_right" width="217" height="150" viewBox="0 0 217 150" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M71.9309 147.949C76.5976 82.6154 288 28 189.931 1.94876C79.2643 18.6154 -99.2691 71.1488 71.9309 147.949Z" fill="#00FFB4" stroke="black" stroke-width="2"/>
+            <path d="M57.9998 114C53.3332 95.3333 67.1998 51.2 160 24" stroke="black" stroke-width="2"/>
+            </svg>
+    </div>
+</section>
+
+<section class="needtoknow">
+    <div class="heyfuturefreshies">
+        <h4 class="text_ondark">Hey future Freshies, ready to start your coding assignment?
+            <br>Here are a few things you need to know.</br>
+            <svg class="illustration_sparkle" width="141" height="79" viewBox="0 0 141 79" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.45925 52.5518C3.94735 52.9155 2.38413 53.2315 0.768066 53.4961C2.41456 53.1149 3.97707 52.8016 5.45925 52.5518C33.2526 45.8657 43.7043 23.0602 46.3153 7.38913C46.4428 4.68879 46.6927 2.18737 47.0158 0C46.9851 2.16751 46.7681 4.671 46.3153 7.38913C45.551 23.5688 49.1804 46.8904 67.8106 52.5933C69.2574 52.8319 70.5882 53.1426 71.7681 53.4961C70.3792 53.2795 69.0611 52.9761 67.8106 52.5933C56.5795 50.7411 38.3561 53.2301 29.4329 73.7183C28.8956 75.5949 28.2145 77.3888 27.4745 79C28.0619 77.119 28.7175 75.3608 29.4329 73.7183C32.6485 62.4882 30.7166 48.2953 5.45925 52.5518Z" fill="#FDC62D"/>
+                <path d="M79.7681 35.7175C117.5 25 116 17.5 121.5 0C121.5 16.4943 115.097 30.8577 138.038 35.3339C138.804 35.3834 139.537 35.5092 140.232 35.7175C139.472 35.5991 138.742 35.4711 138.038 35.3339C126.612 34.5958 107.966 50.879 100 64C105.428 52.1811 117.5 33 79.7681 35.7175Z" fill="#FDC62D"/>
+                </svg>
+        </h4>
+    </div>
+    <div class="boxcontainer">
+        <div class="box">
+            <h3>The assignment</h3>
+            <div class="instructions">
+            <div class="subtitle">
+                <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17 17L22 12L17 7M7 7L2 12L7 17M14 3L10 21" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span class="sub">What you'll build</span>
+            </div>
+            <p class="text_onlight">Complete 3 small tasks to build a log-in page. </p>
+        </div>
+            <div class="instructions">
+            <div class="subtitle">
+                <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12 8V12L15 15M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                <span class="sub">Time limit</span>
+            </div>
+            <p class="text_onlight">2 hours. Complete as many tasks as you can! A timer will be activated when you click "Let's code" button below. Remember to upload your files before the timer ends.</p>
+            </div>
+        </div>
+        <div class="box">
+            <h3>What you'll need</h3>
+            <div class="instructions">
+            <div class="subtitle">
+                <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9 16C12.866 16 16 12.866 16 9C16 5.13401 12.866 2 9 2C5.13401 2 2 5.13401 2 9C2 12.866 5.13401 16 9 16Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M15 22C18.866 22 22 18.866 22 15C22 11.134 18.866 8 15 8C11.134 8 8 11.134 8 15C8 18.866 11.134 22 15 22Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                <span class="sub">The design</span>
+            </div>
+            <p class="text_onlight">A Figma design file and links to typefaces will be provided after you start the assignment!</p>
+            </div>
+            <div class="instructions">
+            <div class="subtitle">
+                <svg class="icon" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M22 9H2M14 17.5L16.5 15L14 12.5M10 12.5L7.5 15L10 17.5M2 7.8L2 16.2C2 17.8802 2 18.7202 2.32698 19.362C2.6146 19.9265 3.07354 20.3854 3.63803 20.673C4.27976 21 5.11984 21 6.8 21H17.2C18.8802 21 19.7202 21 20.362 20.673C20.9265 20.3854 21.3854 19.9265 21.673 19.362C22 18.7202 22 17.8802 22 16.2V7.8C22 6.11984 22 5.27977 21.673 4.63803C21.3854 4.07354 20.9265 3.6146 20.362 3.32698C19.7202 3 18.8802 3 17.2 3L6.8 3C5.11984 3 4.27976 3 3.63803 3.32698C3.07354 3.6146 2.6146 4.07354 2.32698 4.63803C2 5.27976 2 6.11984 2 7.8Z" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                    
+                <span class="sub">Text editor of choice</span>
+            </div>
+            <p class="text_onlight">This text is not finalised - what do you guys want to put in here? @Jimmy @Will?</p>
+            </div>
+            
+    </div>
+</section>
+
+<section class="yourtask">
+    <div class="yourtasktext">
+        <h5>Your</h5>
+        <h5 class="h5_fill">tasks</h5>
+    </div>
+    <div class="tasklist">
+        <div class="taskitem">
+            <div class="task1_label">Task 1</div>
+            <p class="text_ondark">Build a basic log-in page with the design provided by Fresh. It'll look something like this.</p>
+            <img src="Files/Screen_Example.png" alt="example screen">
+        </div>
+        <div class="taskitem">
+            <div class="task2_label">Task 2</div>
+            <p class="text_ondark">Make sure the page is responsive. A mobile design will be provided for your reference :)</p>
+        </div>
+        <div class="taskitem">
+            <div class="task3_label">Task 3</div>
+            <p class="text_ondark">What's task 3? @Jimmy @Will decide pls</p>
+        </div>
+    </div>
+</section>
+
+<section class="CTA">
+    <div class="readycontainer">
+        <h5>ready?</h5><h5>ready?</h5><h5>ready?</h5><h5>ready?</h5><h5>ready?</h5>
+    </div>
+    <div class="ctasection"> 
+        <p class="sub text_ondark">2-hour timer will start when you click “Let’s code”. Make sure you have everything you need. Good luck!</p>
+        <button class="offset">Let's code!</button>
+    </div>
+       
+</section>
+
+
+</body>
+</html>
